@@ -3,8 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Node Express Joke Book</title>
+    <link rel="stylesheet" href="/public/styles/styles.css"/>
+    <script type="text/javascript" src="public/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="public/scripts/client.js"></script>
   </head>
   <body>
+    <h1>Jokes</h1>
+    <div class="">Submit your own joke!</div>
+    <label for="jokeEnter">Joke</label>
+    <input type="text" id="jokeEnter" class="input">
+    <label for="punchlineEnter">Punchline</label>
+    <input type="text" id="punchLineEnter" class="input">
+    <label for="nameEnter">Name</label>
+    <input type="text" id="nameEnter" class="input">
+    <button type="button" id="button">Submit</button>
+
+    <div id="jokesContainer"></div>
 
   </body>
 </html>
